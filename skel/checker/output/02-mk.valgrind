@@ -1,0 +1,15 @@
+==764== Memcheck, a memory error detector
+==764== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==764== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==764== Command: ./mk
+==764== Parent PID: 690
+==764== 
+==764== 
+==764== HEAP SUMMARY:
+==764==     in use at exit: 0 bytes in 0 blocks
+==764==   total heap usage: 672 allocs, 672 frees, 88,496 bytes allocated
+==764== 
+==764== All heap blocks were freed -- no leaks are possible
+==764== 
+==764== For lists of detected and suppressed errors, rerun with: -s
+==764== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

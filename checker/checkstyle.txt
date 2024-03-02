@@ -1,0 +1,527 @@
+./mk.c:15: ERROR:POINTER_LOCATION: "foo* bar" should be "foo *bar"
+./mk.c:16: ERROR:TRAILING_WHITESPACE: trailing whitespace
+./mk.c:20: ERROR:SPACING: space required before the open parenthesis '('
+./mk.c:25: ERROR:SPACING: space required before the open parenthesis '('
+./mk.c:29: CHECK:COMPARISON_TO_NULL: Comparison to NULL could be written "!f"
+./mk.c:31: WARNING:BRACES: braces {} are not necessary for single statement blocks
+./mk.c:36: ERROR:SPACING: space required before the open parenthesis '('
+./mk.c:42: ERROR:SPACING: space required before the open parenthesis '('
+./mk.c:48: ERROR:SPACING: space required before the open parenthesis '('
+./mk.c:53: ERROR:SPACING: space required before the open parenthesis '('
+./trie.c:9: ERROR:POINTER_LOCATION: "foo* bar" should be "foo *bar"
+./trie.c:9: ERROR:POINTER_LOCATION: "foo * bar" should be "foo *bar"
+./trie.c:9: ERROR:OPEN_BRACE: open brace '{' following function definitions go on the next line
+./trie.c:10: CHECK:BRACES: Blank lines aren't necessary after an open brace '{'
+./trie.c:11: CHECK:SPACING: No space is necessary after a cast
+./trie.c:11: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:11: ERROR:POINTER_LOCATION: "(foo*)" should be "(foo *)"
+./trie.c:11: ERROR:POINTER_LOCATION: "foo* bar" should be "foo *bar"
+./trie.c:12: ERROR:TRAILING_WHITESPACE: trailing whitespace
+./trie.c:12: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:13: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:14: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:15: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:16: CHECK:LONG_LINE: line length of 87 exceeds 80 columns
+./trie.c:16: CHECK:SPACING: No space is necessary after a cast
+./trie.c:16: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:16: ERROR:POINTER_LOCATION: "(foo**)" should be "(foo **)"
+./trie.c:16: ERROR:POINTER_LOCATION: "(foo*)" should be "(foo *)"
+./trie.c:17: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:17: CHECK:CAMELCASE: Avoid CamelCase: <nNodes>
+./trie.c:19: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:22: CHECK:LONG_LINE: line length of 86 exceeds 80 columns
+./trie.c:22: ERROR:POINTER_LOCATION: "(foo*)" should be "(foo *)"
+./trie.c:22: ERROR:POINTER_LOCATION: "foo* bar" should be "foo *bar"
+./trie.c:22: ERROR:POINTER_LOCATION: "foo* bar" should be "foo *bar"
+./trie.c:22: ERROR:OPEN_BRACE: open brace '{' following function definitions go on the next line
+./trie.c:23: CHECK:BRACES: Blank lines aren't necessary after an open brace '{'
+./trie.c:24: CHECK:SPACING: No space is necessary after a cast
+./trie.c:24: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:24: ERROR:POINTER_LOCATION: "(foo*)" should be "(foo *)"
+./trie.c:24: ERROR:POINTER_LOCATION: "foo* bar" should be "foo *bar"
+./trie.c:26: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:27: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:28: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:29: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:30: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:31: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:33: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:36: ERROR:POINTER_LOCATION: "foo* bar" should be "foo *bar"
+./trie.c:36: ERROR:POINTER_LOCATION: "foo* bar" should be "foo *bar"
+./trie.c:36: ERROR:OPEN_BRACE: open brace '{' following function definitions go on the next line
+./trie.c:37: CHECK:BRACES: Blank lines aren't necessary after an open brace '{'
+./trie.c:38: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:38: ERROR:POINTER_LOCATION: "foo* bar" should be "foo *bar"
+./trie.c:39: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:41: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:42: ERROR:CODE_INDENT: code indent should use tabs where possible
+./trie.c:42: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:44: ERROR:CODE_INDENT: code indent should use tabs where possible
+./trie.c:44: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:44: CHECK:COMPARISON_TO_NULL: Comparison to NULL could be written "!current->children[index]"
+./trie.c:45: ERROR:CODE_INDENT: code indent should use tabs where possible
+./trie.c:45: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:46: ERROR:CODE_INDENT: code indent should use tabs where possible
+./trie.c:46: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:47: ERROR:CODE_INDENT: code indent should use tabs where possible
+./trie.c:47: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:49: ERROR:CODE_INDENT: code indent should use tabs where possible
+./trie.c:49: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:50: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:52: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:56: CHECK:LONG_LINE: line length of 120 exceeds 80 columns
+./trie.c:56: ERROR:POINTER_LOCATION: "foo* bar" should be "foo *bar"
+./trie.c:56: ERROR:POINTER_LOCATION: "foo* bar" should be "foo *bar"
+./trie.c:56: ERROR:POINTER_LOCATION: "foo* bar" should be "foo *bar"
+./trie.c:56: ERROR:POINTER_LOCATION: "foo* bar" should be "foo *bar"
+./trie.c:56: ERROR:OPEN_BRACE: open brace '{' following function definitions go on the next line
+./trie.c:57: CHECK:BRACES: Blank lines aren't necessary after an open brace '{'
+./trie.c:58: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:58: CHECK:COMPARISON_TO_NULL: Comparison to NULL could be written "!node"
+./trie.c:58: CHECK:COMPARISON_TO_NULL: Comparison to NULL could be written "!word"
+./trie.c:59: ERROR:CODE_INDENT: code indent should use tabs where possible
+./trie.c:59: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:61: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:62: ERROR:CODE_INDENT: code indent should use tabs where possible
+./trie.c:62: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:62: ERROR:SPACING: space required before the open parenthesis '('
+./trie.c:63: ERROR:CODE_INDENT: code indent should use tabs where possible
+./trie.c:63: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:64: ERROR:CODE_INDENT: code indent should use tabs where possible
+./trie.c:64: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:64: ERROR:SPACING: space required before the open parenthesis '('
+./trie.c:65: CHECK:LONG_LINE: line length of 105 exceeds 80 columns
+./trie.c:67: CHECK:LONG_LINE: line length of 109 exceeds 80 columns
+./trie.c:68: ERROR:CODE_INDENT: code indent should use tabs where possible
+./trie.c:68: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:69: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:71: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:73: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:73: ERROR:SPACING: space required before the open parenthesis '('
+./trie.c:74: ERROR:CODE_INDENT: code indent should use tabs where possible
+./trie.c:74: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:75: ERROR:CODE_INDENT: code indent should use tabs where possible
+./trie.c:75: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:76: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:78: CHECK:BRACES: Blank lines aren't necessary before a close brace '}'
+./trie.c:80: ERROR:POINTER_LOCATION: "foo* bar" should be "foo *bar"
+./trie.c:80: ERROR:POINTER_LOCATION: "foo* bar" should be "foo *bar"
+./trie.c:80: ERROR:OPEN_BRACE: open brace '{' following function definitions go on the next line
+./trie.c:81: CHECK:BRACES: Blank lines aren't necessary after an open brace '{'
+./trie.c:82: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:82: ERROR:POINTER_LOCATION: "foo* bar" should be "foo *bar"
+./trie.c:83: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:84: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:85: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:86: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:87: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:88: WARNING:TABSTOP: Statements should start on a tabstop
+./trie.c:89: ERROR:CODE_INDENT: code indent should use tabs where possible
+./trie.c:89: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:89: ERROR:SPACING: space required before the open parenthesis '('
+./trie.c:90: ERROR:CODE_INDENT: code indent should use tabs where possible
+./trie.c:90: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:91: ERROR:CODE_INDENT: code indent should use tabs where possible
+./trie.c:91: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:91: ERROR:SPACING: space required before the open parenthesis '('
+./trie.c:92: CHECK:LONG_LINE: line length of 90 exceeds 80 columns
+./trie.c:94: CHECK:LONG_LINE: line length of 90 exceeds 80 columns
+./trie.c:95: ERROR:CODE_INDENT: code indent should use tabs where possible
+./trie.c:95: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:96: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:98: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:99: ERROR:CODE_INDENT: code indent should use tabs where possible
+./trie.c:99: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:101: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:104: CHECK:LONG_LINE: line length of 97 exceeds 80 columns
+./trie.c:104: ERROR:OPEN_BRACE: open brace '{' following function definitions go on the next line
+./trie.c:105: ERROR:TRAILING_WHITESPACE: trailing whitespace
+./trie.c:105: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:105: CHECK:BRACES: Blank lines aren't necessary after an open brace '{'
+./trie.c:106: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:106: CHECK:COMPARISON_TO_NULL: Comparison to NULL could be written "!curr"
+./trie.c:107: ERROR:CODE_INDENT: code indent should use tabs where possible
+./trie.c:107: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:109: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:110: ERROR:CODE_INDENT: code indent should use tabs where possible
+./trie.c:110: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:110: ERROR:SPACING: space required before the open parenthesis '('
+./trie.c:111: ERROR:CODE_INDENT: code indent should use tabs where possible
+./trie.c:111: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:112: CHECK:LONG_LINE: line length of 86 exceeds 80 columns
+./trie.c:112: ERROR:CODE_INDENT: code indent should use tabs where possible
+./trie.c:112: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:113: ERROR:CODE_INDENT: code indent should use tabs where possible
+./trie.c:113: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:114: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:116: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:118: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:118: ERROR:SPACING: space required before the open parenthesis '('
+./trie.c:119: ERROR:CODE_INDENT: code indent should use tabs where possible
+./trie.c:119: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:119: ERROR:SPACING: space required before the open parenthesis '('
+./trie.c:119: CHECK:BRACES: braces {} should be used on all arms of this statement
+./trie.c:120: ERROR:CODE_INDENT: code indent should use tabs where possible
+./trie.c:120: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:121: ERROR:CODE_INDENT: code indent should use tabs where possible
+./trie.c:121: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:122: ERROR:CODE_INDENT: code indent should use tabs where possible
+./trie.c:122: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:123: ERROR:CODE_INDENT: code indent should use tabs where possible
+./trie.c:123: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:123: ERROR:SPACING: space required before the open parenthesis '('
+./trie.c:123: ERROR:ELSE_AFTER_BRACE: else should follow close brace '}'
+./trie.c:124: ERROR:CODE_INDENT: code indent should use tabs where possible
+./trie.c:124: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:125: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:127: CHECK:BRACES: Blank lines aren't necessary before a close brace '}'
+./trie.c:129: CHECK:LONG_LINE: line length of 97 exceeds 80 columns
+./trie.c:129: ERROR:OPEN_BRACE: open brace '{' following function definitions go on the next line
+./trie.c:130: ERROR:TRAILING_WHITESPACE: trailing whitespace
+./trie.c:130: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:130: CHECK:BRACES: Blank lines aren't necessary after an open brace '{'
+./trie.c:131: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:131: CHECK:COMPARISON_TO_NULL: Comparison to NULL could be written "!curr"
+./trie.c:132: ERROR:CODE_INDENT: code indent should use tabs where possible
+./trie.c:132: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:134: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:135: ERROR:CODE_INDENT: code indent should use tabs where possible
+./trie.c:135: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:135: ERROR:SPACING: space required before the open parenthesis '('
+./trie.c:136: ERROR:CODE_INDENT: code indent should use tabs where possible
+./trie.c:136: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:137: CHECK:LONG_LINE: line length of 86 exceeds 80 columns
+./trie.c:137: ERROR:CODE_INDENT: code indent should use tabs where possible
+./trie.c:137: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:138: ERROR:CODE_INDENT: code indent should use tabs where possible
+./trie.c:138: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:139: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:141: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:143: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:143: ERROR:SPACING: space required before the open parenthesis '('
+./trie.c:144: ERROR:CODE_INDENT: code indent should use tabs where possible
+./trie.c:144: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:144: ERROR:SPACING: space required before the open parenthesis '('
+./trie.c:144: CHECK:BRACES: braces {} should be used on all arms of this statement
+./trie.c:145: ERROR:CODE_INDENT: code indent should use tabs where possible
+./trie.c:145: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:146: ERROR:CODE_INDENT: code indent should use tabs where possible
+./trie.c:146: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:147: ERROR:CODE_INDENT: code indent should use tabs where possible
+./trie.c:147: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:148: ERROR:CODE_INDENT: code indent should use tabs where possible
+./trie.c:148: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:148: ERROR:SPACING: space required before the open parenthesis '('
+./trie.c:148: ERROR:ELSE_AFTER_BRACE: else should follow close brace '}'
+./trie.c:149: ERROR:CODE_INDENT: code indent should use tabs where possible
+./trie.c:149: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:150: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:152: CHECK:BRACES: Blank lines aren't necessary before a close brace '}'
+./trie.c:154: CHECK:LONG_LINE: line length of 109 exceeds 80 columns
+./trie.c:154: ERROR:OPEN_BRACE: open brace '{' following function definitions go on the next line
+./trie.c:155: ERROR:TRAILING_WHITESPACE: trailing whitespace
+./trie.c:155: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:155: CHECK:BRACES: Blank lines aren't necessary after an open brace '{'
+./trie.c:156: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:156: CHECK:COMPARISON_TO_NULL: Comparison to NULL could be written "!curr"
+./trie.c:157: ERROR:CODE_INDENT: code indent should use tabs where possible
+./trie.c:157: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:159: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:160: ERROR:CODE_INDENT: code indent should use tabs where possible
+./trie.c:160: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:160: ERROR:SPACING: space required before the open parenthesis '('
+./trie.c:161: ERROR:CODE_INDENT: code indent should use tabs where possible
+./trie.c:161: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:162: CHECK:LONG_LINE: line length of 92 exceeds 80 columns
+./trie.c:162: ERROR:CODE_INDENT: code indent should use tabs where possible
+./trie.c:162: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:163: ERROR:CODE_INDENT: code indent should use tabs where possible
+./trie.c:163: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:164: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:166: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:167: ERROR:TRAILING_WHITESPACE: trailing whitespace
+./trie.c:167: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:168: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:168: ERROR:SPACING: space required before the open parenthesis '('
+./trie.c:169: ERROR:CODE_INDENT: code indent should use tabs where possible
+./trie.c:169: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:169: ERROR:SPACING: space required before the open parenthesis '('
+./trie.c:170: ERROR:CODE_INDENT: code indent should use tabs where possible
+./trie.c:170: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:171: ERROR:CODE_INDENT: code indent should use tabs where possible
+./trie.c:171: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:172: ERROR:CODE_INDENT: code indent should use tabs where possible
+./trie.c:172: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:173: ERROR:CODE_INDENT: code indent should use tabs where possible
+./trie.c:173: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:174: ERROR:CODE_INDENT: code indent should use tabs where possible
+./trie.c:174: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:174: ERROR:SPACING: space required before the open parenthesis '('
+./trie.c:174: ERROR:ELSE_AFTER_BRACE: else should follow close brace '}'
+./trie.c:175: ERROR:CODE_INDENT: code indent should use tabs where possible
+./trie.c:175: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:176: ERROR:CODE_INDENT: code indent should use tabs where possible
+./trie.c:176: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:177: ERROR:CODE_INDENT: code indent should use tabs where possible
+./trie.c:177: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:178: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:180: CHECK:BRACES: Blank lines aren't necessary before a close brace '}'
+./trie.c:182: ERROR:POINTER_LOCATION: "foo* bar" should be "foo *bar"
+./trie.c:182: ERROR:POINTER_LOCATION: "foo* bar" should be "foo *bar"
+./trie.c:182: ERROR:OPEN_BRACE: open brace '{' following function definitions go on the next line
+./trie.c:183: CHECK:BRACES: Blank lines aren't necessary after an open brace '{'
+./trie.c:184: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:184: ERROR:POINTER_LOCATION: "foo* bar" should be "foo *bar"
+./trie.c:185: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:186: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:187: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:188: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:189: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:190: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:191: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:192: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:193: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:193: ERROR:SPACING: space required before the open parenthesis '('
+./trie.c:194: ERROR:CODE_INDENT: code indent should use tabs where possible
+./trie.c:194: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:194: ERROR:SPACING: space required before the open parenthesis '('
+./trie.c:195: ERROR:CODE_INDENT: code indent should use tabs where possible
+./trie.c:195: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:196: ERROR:CODE_INDENT: code indent should use tabs where possible
+./trie.c:196: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:197: ERROR:CODE_INDENT: code indent should use tabs where possible
+./trie.c:197: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:198: ERROR:CODE_INDENT: code indent should use tabs where possible
+./trie.c:198: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:199: ERROR:CODE_INDENT: code indent should use tabs where possible
+./trie.c:199: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:200: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:201: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:201: ERROR:OPEN_BRACE: that open brace { should be on the previous line
+./trie.c:202: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:203: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:204: ERROR:CODE_INDENT: code indent should use tabs where possible
+./trie.c:204: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:205: ERROR:CODE_INDENT: code indent should use tabs where possible
+./trie.c:205: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:205: ERROR:SPACING: space required before the open parenthesis '('
+./trie.c:206: ERROR:CODE_INDENT: code indent should use tabs where possible
+./trie.c:206: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:207: ERROR:CODE_INDENT: code indent should use tabs where possible
+./trie.c:207: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:208: ERROR:CODE_INDENT: code indent should use tabs where possible
+./trie.c:208: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:209: ERROR:CODE_INDENT: code indent should use tabs where possible
+./trie.c:209: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:210: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:211: ERROR:CODE_INDENT: code indent should use tabs where possible
+./trie.c:211: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:212: ERROR:CODE_INDENT: code indent should use tabs where possible
+./trie.c:212: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:212: ERROR:SPACING: space required before the open parenthesis '('
+./trie.c:213: ERROR:CODE_INDENT: code indent should use tabs where possible
+./trie.c:213: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:214: ERROR:CODE_INDENT: code indent should use tabs where possible
+./trie.c:214: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:215: ERROR:CODE_INDENT: code indent should use tabs where possible
+./trie.c:215: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:216: ERROR:CODE_INDENT: code indent should use tabs where possible
+./trie.c:216: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:217: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:218: ERROR:CODE_INDENT: code indent should use tabs where possible
+./trie.c:218: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:219: ERROR:CODE_INDENT: code indent should use tabs where possible
+./trie.c:219: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:219: ERROR:SPACING: space required before the open parenthesis '('
+./trie.c:220: ERROR:CODE_INDENT: code indent should use tabs where possible
+./trie.c:220: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:221: ERROR:CODE_INDENT: code indent should use tabs where possible
+./trie.c:221: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:222: ERROR:CODE_INDENT: code indent should use tabs where possible
+./trie.c:222: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:223: ERROR:TRAILING_WHITESPACE: trailing whitespace
+./trie.c:223: ERROR:CODE_INDENT: code indent should use tabs where possible
+./trie.c:223: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:224: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:225: ERROR:CODE_INDENT: code indent should use tabs where possible
+./trie.c:225: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:226: ERROR:CODE_INDENT: code indent should use tabs where possible
+./trie.c:226: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:226: ERROR:SPACING: space required before the open parenthesis '('
+./trie.c:227: ERROR:CODE_INDENT: code indent should use tabs where possible
+./trie.c:227: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:228: ERROR:CODE_INDENT: code indent should use tabs where possible
+./trie.c:228: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:229: ERROR:CODE_INDENT: code indent should use tabs where possible
+./trie.c:229: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:230: ERROR:CODE_INDENT: code indent should use tabs where possible
+./trie.c:230: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:231: ERROR:CODE_INDENT: code indent should use tabs where possible
+./trie.c:231: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:232: ERROR:CODE_INDENT: code indent should use tabs where possible
+./trie.c:232: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:233: ERROR:CODE_INDENT: code indent should use tabs where possible
+./trie.c:233: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:233: ERROR:SPACING: space required before the open parenthesis '('
+./trie.c:234: ERROR:CODE_INDENT: code indent should use tabs where possible
+./trie.c:234: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:235: ERROR:CODE_INDENT: code indent should use tabs where possible
+./trie.c:235: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:236: ERROR:CODE_INDENT: code indent should use tabs where possible
+./trie.c:236: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:237: ERROR:CODE_INDENT: code indent should use tabs where possible
+./trie.c:237: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:238: ERROR:CODE_INDENT: code indent should use tabs where possible
+./trie.c:238: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:239: ERROR:CODE_INDENT: code indent should use tabs where possible
+./trie.c:239: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:240: ERROR:CODE_INDENT: code indent should use tabs where possible
+./trie.c:240: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:240: ERROR:SPACING: space required before the open parenthesis '('
+./trie.c:241: ERROR:CODE_INDENT: code indent should use tabs where possible
+./trie.c:241: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:242: ERROR:CODE_INDENT: code indent should use tabs where possible
+./trie.c:242: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:243: ERROR:CODE_INDENT: code indent should use tabs where possible
+./trie.c:243: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:244: ERROR:TRAILING_WHITESPACE: trailing whitespace
+./trie.c:244: ERROR:CODE_INDENT: code indent should use tabs where possible
+./trie.c:244: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:246: ERROR:CODE_INDENT: code indent should use tabs where possible
+./trie.c:246: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:247: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:249: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:250: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:253: ERROR:POINTER_LOCATION: "foo* bar" should be "foo *bar"
+./trie.c:253: ERROR:POINTER_LOCATION: "foo* bar" should be "foo *bar"
+./trie.c:255: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:256: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:257: ERROR:CODE_INDENT: code indent should use tabs where possible
+./trie.c:257: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:258: ERROR:CODE_INDENT: code indent should use tabs where possible
+./trie.c:258: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:259: ERROR:CODE_INDENT: code indent should use tabs where possible
+./trie.c:259: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:259: CHECK:SPACING: spaces preferred around that '+' (ctx:VxV)
+./trie.c:260: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:261: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:262: ERROR:CODE_INDENT: code indent should use tabs where possible
+./trie.c:262: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:263: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:264: ERROR:CODE_INDENT: code indent should use tabs where possible
+./trie.c:264: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:265: ERROR:CODE_INDENT: code indent should use tabs where possible
+./trie.c:265: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:266: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:267: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:268: ERROR:CODE_INDENT: code indent should use tabs where possible
+./trie.c:268: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:269: ERROR:CODE_INDENT: code indent should use tabs where possible
+./trie.c:269: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:270: ERROR:CODE_INDENT: code indent should use tabs where possible
+./trie.c:270: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:271: ERROR:CODE_INDENT: code indent should use tabs where possible
+./trie.c:271: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:272: ERROR:CODE_INDENT: code indent should use tabs where possible
+./trie.c:272: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:273: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:274: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:277: ERROR:POINTER_LOCATION: "foo* bar" should be "foo *bar"
+./trie.c:277: ERROR:POINTER_LOCATION: "foo* bar" should be "foo *bar"
+./trie.c:277: ERROR:OPEN_BRACE: open brace '{' following function definitions go on the next line
+./trie.c:278: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:279: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:280: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:283: ERROR:POINTER_LOCATION: "(foo*)" should be "(foo *)"
+./trie.c:283: ERROR:POINTER_LOCATION: "foo* bar" should be "foo *bar"
+./trie.c:283: ERROR:OPEN_BRACE: open brace '{' following function definitions go on the next line
+./trie.c:284: CHECK:BRACES: Blank lines aren't necessary after an open brace '{'
+./trie.c:285: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:286: ERROR:CODE_INDENT: code indent should use tabs where possible
+./trie.c:286: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:286: ERROR:SPACING: space required before the open parenthesis '('
+./trie.c:286: WARNING:BRACES: braces {} are not necessary for single statement blocks
+./trie.c:286: CHECK:COMPARISON_TO_NULL: Comparison to NULL could be written "!node->children[i]"
+./trie.c:287: ERROR:CODE_INDENT: code indent should use tabs where possible
+./trie.c:287: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:288: ERROR:CODE_INDENT: code indent should use tabs where possible
+./trie.c:288: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:289: ERROR:CODE_INDENT: code indent should use tabs where possible
+./trie.c:289: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:290: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:292: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:293: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:295: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:296: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:299: ERROR:POINTER_LOCATION: "foo** bar" should be "foo **bar"
+./trie.c:299: ERROR:OPEN_BRACE: open brace '{' following function definitions go on the next line
+./trie.c:299: CHECK:CAMELCASE: Avoid CamelCase: <pTrie>
+./trie.c:300: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:300: ERROR:POINTER_LOCATION: "foo* bar" should be "foo *bar"
+./trie.c:301: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:302: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.c:303: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./utils.h:12: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./utils.h:13: ERROR:CODE_INDENT: code indent should use tabs where possible
+./utils.h:13: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./utils.h:14: ERROR:CODE_INDENT: code indent should use tabs where possible
+./utils.h:14: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./utils.h:15: ERROR:CODE_INDENT: code indent should use tabs where possible
+./utils.h:15: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./utils.h:16: ERROR:CODE_INDENT: code indent should use tabs where possible
+./utils.h:16: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./utils.h:17: ERROR:CODE_INDENT: code indent should use tabs where possible
+./utils.h:17: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./utils.h:18: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./utils.h:20: CHECK:LINE_SPACING: Please don't use multiple blank lines
+./utils.h:21: WARNING:MISSING_EOF_NEWLINE: adding a line without newline at end of file
+./trie.h:10: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.h:13: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.h:15: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.h:15: ERROR:POINTER_LOCATION: "foo** bar" should be "foo **bar"
+./trie.h:16: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.h:21: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.h:21: ERROR:POINTER_LOCATION: "foo* bar" should be "foo *bar"
+./trie.h:22: ERROR:TRAILING_WHITESPACE: trailing whitespace
+./trie.h:22: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.h:24: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.h:27: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.h:30: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.h:31: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.h:31: ERROR:POINTER_LOCATION: "foo* bar" should be "foo *bar"
+./trie.h:33: CHECK:LONG_LINE_COMMENT: line length of 83 exceeds 80 columns
+./trie.h:34: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.h:34: ERROR:POINTER_LOCATION: "(foo*)" should be "(foo *)"
+./trie.h:34: WARNING:FUNCTION_ARGUMENTS: function definition argument 'void*' should also have an identifier name
+./trie.h:37: WARNING:LEADING_SPACE: please, no spaces at the start of a line
+./trie.h:37: CHECK:CAMELCASE: Avoid CamelCase: <nNodes>
+./trie.h:40: ERROR:POINTER_LOCATION: "foo* bar" should be "foo *bar"
+./trie.h:40: ERROR:POINTER_LOCATION: "foo * bar" should be "foo *bar"
+./trie.h:42: CHECK:LONG_LINE: line length of 85 exceeds 80 columns
+./trie.h:42: ERROR:POINTER_LOCATION: "(foo*)" should be "(foo *)"
+./trie.h:42: ERROR:POINTER_LOCATION: "foo* bar" should be "foo *bar"
+./trie.h:42: ERROR:POINTER_LOCATION: "foo* bar" should be "foo *bar"
+./trie.h:44: ERROR:POINTER_LOCATION: "foo* bar" should be "foo *bar"
+./trie.h:44: ERROR:POINTER_LOCATION: "foo* bar" should be "foo *bar"
+./trie.h:46: CHECK:LONG_LINE: line length of 119 exceeds 80 columns
+./trie.h:46: ERROR:POINTER_LOCATION: "foo* bar" should be "foo *bar"
+./trie.h:46: ERROR:POINTER_LOCATION: "foo* bar" should be "foo *bar"
+./trie.h:46: ERROR:POINTER_LOCATION: "foo* bar" should be "foo *bar"
+./trie.h:46: ERROR:POINTER_LOCATION: "foo* bar" should be "foo *bar"
+./trie.h:48: ERROR:POINTER_LOCATION: "foo* bar" should be "foo *bar"
+./trie.h:48: ERROR:POINTER_LOCATION: "foo* bar" should be "foo *bar"
+./trie.h:50: CHECK:LONG_LINE: line length of 96 exceeds 80 columns
+./trie.h:52: CHECK:LONG_LINE: line length of 96 exceeds 80 columns
+./trie.h:52: ERROR:POINTER_LOCATION: "foo* bar" should be "foo *bar"
+./trie.h:54: CHECK:LONG_LINE: line length of 108 exceeds 80 columns
+./trie.h:56: ERROR:POINTER_LOCATION: "foo* bar" should be "foo *bar"
+./trie.h:56: ERROR:POINTER_LOCATION: "foo* bar" should be "foo *bar"
+./trie.h:58: ERROR:POINTER_LOCATION: "foo* bar" should be "foo *bar"
+./trie.h:58: ERROR:POINTER_LOCATION: "foo* bar" should be "foo *bar"
+./trie.h:60: ERROR:POINTER_LOCATION: "foo* bar" should be "foo *bar"
+./trie.h:60: ERROR:POINTER_LOCATION: "foo* bar" should be "foo *bar"
+./trie.h:62: ERROR:POINTER_LOCATION: "(foo*)" should be "(foo *)"
+./trie.h:62: ERROR:POINTER_LOCATION: "foo* bar" should be "foo *bar"
+./trie.h:64: WARNING:MISSING_EOF_NEWLINE: adding a line without newline at end of file
+./trie.h:64: ERROR:POINTER_LOCATION: "foo** bar" should be "foo **bar"
+./trie.h:64: CHECK:CAMELCASE: Avoid CamelCase: <pTrie>

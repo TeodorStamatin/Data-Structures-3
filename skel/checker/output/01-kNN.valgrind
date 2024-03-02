@@ -1,0 +1,15 @@
+==753== Memcheck, a memory error detector
+==753== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==753== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==753== Command: ./kNN
+==753== Parent PID: 690
+==753== 
+==753== 
+==753== HEAP SUMMARY:
+==753==     in use at exit: 0 bytes in 0 blocks
+==753==   total heap usage: 105 allocs, 105 frees, 21,664 bytes allocated
+==753== 
+==753== All heap blocks were freed -- no leaks are possible
+==753== 
+==753== For lists of detected and suppressed errors, rerun with: -s
+==753== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
